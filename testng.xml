@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kalsh/IdeaProjects/APIFramework">
+        <classes>
+            <class name="com.xorail.hrm.tests.GetRequests">
+                <methods>
+                    <include name="getEmployeeDetails"/>
+                    <include name="getEmployee"/>
+                </methods>
+            </class>
+            <class name="com.xorail.hrm.tests.PostRequests">
+                <methods>
+                    <include name="createEmployeeTest"/>
+                    <include name="createEmployeeusingExternalFile"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
